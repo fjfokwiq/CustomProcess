@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="process_unreach_color" format="color" />
+    <attr name="process_unreach_height" format="dimension" />
+    <attr name="process_reach_color" format="color" />
+    <attr name="process_reach_height" format="dimension" />
+    <attr name="process_text_size" format="dimension" />
+    <attr name="process_text_color" format="color" />
+    <attr name="process_text_offset" format="dimension" />
+    <declare-styleable name="ProcessbarwithH">
+        <attr name="process_unreach_color" />
+        <attr name="process_unreach_height" />
+        <attr name="process_reach_color" />
+        <attr name="process_reach_height" />
+        <attr name="process_text_size" />
+        <attr name="process_text_color" />
+        <attr name="process_text_offset" />
+
+
+    </declare-styleable>
+</resources>
