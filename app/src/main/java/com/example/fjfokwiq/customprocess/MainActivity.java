@@ -7,7 +7,7 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
     private static final int MSG_UPDATA = 0X110;
-       private ProcessbarwithH proce;
+    private ProcessBarWithH proce;
     private Handler mhandler=new Handler(new Handler.Callback() {
         @Override
         public boolean handleMessage(Message message) {
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        proce = (ProcessbarwithH) findViewById(R.id.pb_test);
+        proce = (ProcessBarWithH) findViewById(R.id.pb_test);
         mhandler.sendEmptyMessage(MSG_UPDATA);
                 
     }

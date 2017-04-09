@@ -5,12 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.fjfokwiq.customprocess.MainActivity">
-<com.example.fjfokwiq.customprocess.ProcessbarwithH
+<com.example.fjfokwiq.customprocess.ProcessBarWithH
     android:id="@+id/pb_test"
-    android:layout_width="300dp"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:padding="5dp"
     android:layout_marginTop="100dp"
+    fjfokwiq:progress_style="circle"
     fjfokwiq:process_reach_color="#ea4a4a"
     fjfokwiq:process_unreach_color="#c1bdbd"
     fjfokwiq:process_text_color="#ea4a4a"

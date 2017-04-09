@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <attr name="progress_style">
+        <enum name="rect" value="0" />
+        <enum name="circle" value="1" />
+    </attr>
+    <attr name="progress_radius" format="dimension" />
     <attr name="process_unreach_color" format="color" />
     <attr name="process_unreach_height" format="dimension" />
     <attr name="process_reach_color" format="color" />
@@ -7,7 +12,9 @@
     <attr name="process_text_size" format="dimension" />
     <attr name="process_text_color" format="color" />
     <attr name="process_text_offset" format="dimension" />
-    <declare-styleable name="ProcessbarwithH">
+    <declare-styleable name="ProcessBarWithH">
+        <attr name="progress_style"/>
+        <attr name="progress_radius" />
         <attr name="process_unreach_color" />
         <attr name="process_unreach_height" />
         <attr name="process_reach_color" />
